@@ -37,7 +37,7 @@ const MORSE_TABLE = {
     '-----':  '0',
 };
 
-// function decode(expr) {
+function decode(expr) {
 //   let  MORSE_TABLE2 = Object.keys(MORSE_TABLE);
   
 //   let result = [];
@@ -58,12 +58,7 @@ const MORSE_TABLE = {
 //   }
 //   console.log(result)
 //   return result.join('');
-// }
-
-// decode("00000000100000111010101010111100111011100000001011111110101011111010101010101010")
-// module.exports = {
-//     decode
-// }
+}
 
 console.log(MORSE_TABLE['.-']);
 console.log(MORSE_TABLE['-...']);
@@ -75,3 +70,34 @@ console.log(MORSE_TABLE['--.']);
 console.log(MORSE_TABLE['....']);
 console.log(MORSE_TABLE['..']);
 console.log(MORSE_TABLE['.---']);
+console.log(MORSE_TABLE['-.-']);
+console.log(MORSE_TABLE['.-..']);
+console.log(MORSE_TABLE['--']);
+console.log(MORSE_TABLE['-.']);
+console.log(MORSE_TABLE['---']);
+console.log(MORSE_TABLE['.--.']);
+console.log(MORSE_TABLE['--.-']);
+console.log(MORSE_TABLE['.-.']);
+console.log(MORSE_TABLE['...']);
+console.log(MORSE_TABLE['-']);
+console.log(MORSE_TABLE['..-']);
+console.log(MORSE_TABLE['...-']);
+console.log(MORSE_TABLE['.--']);
+console.log(MORSE_TABLE['-..-']);
+console.log(MORSE_TABLE['-.--']);
+console.log(MORSE_TABLE['--..']);
+console.log(MORSE_TABLE['.----']);
+console.log(MORSE_TABLE['..---']);
+console.log(MORSE_TABLE['...--']);
+console.log(MORSE_TABLE['....-']);
+console.log(MORSE_TABLE['.....']);
+console.log(MORSE_TABLE['-....']);
+console.log(MORSE_TABLE['--...']);
+console.log(MORSE_TABLE['---..']);
+console.log(MORSE_TABLE['----.']);
+console.log(MORSE_TABLE['-----']);
+
+// decode("00000000100000111010101010111100111011100000001011111110101011111010101010101010")
+module.exports = {
+    decode
+}
